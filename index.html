@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #333;
+            color: white;
+        }
+        
+        
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        label {
+            margin: 10px 0 5px;
+        }
+        
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        button {
+            padding: 10px 15px;
+            border: none;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        
+        button:hover {
+            background-color: #555;
+        }
+        
+        
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #333;
+            color: white;
+        }
+        
+        h2{
+            margin-top: 40px;
+        }
+        
+            </style>
+        </head>
+        <body>
+            <header>
+                <h1>Welcome to My Website</h1>
+            </header>
+        
+            <section class="content">
+                <h2>Data Table</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>State</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tasnim</td>
+                            <td>21</td>
+                            <td>Madhya Pradesh</td>
+                        </tr>
+                        <tr>
+                            <td>Tausif</td>
+                            <td>25</td>
+                            <td>Karnataka</td>
+                        </tr>
+                        <tr>
+                            <td>Tamim</td>
+                            <td>17</td>
+                            <td>Bihar</td>
+                        </tr>
+                    </tbody>
+                </table>
+        
+                <h2>Contact Form</h2>
+                <form>
+                    Name<input type="text" id="name" >
+                    Email<input type="email" id="email" name="email" required>
+                    Message<textarea id="message" name="message" required></textarea>
+        
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        
+            <footer>
+                <p>My Website</p>
+            </footer>
+        </body>
+        </html>
